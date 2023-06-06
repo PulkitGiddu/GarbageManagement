@@ -1,7 +1,5 @@
-# garbagemonitoringsystem
+# GarbageManagementSystem
 
-To read about his project https://medium.com/@iomkarsurve/garbage-monitoring-system-overcome-overflowing-dustbins-could-this-be-future-907303bc87ef?postPublishedType=initial
-code for garbage monitoring system
 In this article i am going to talk about my first projects i made in field of internet of things (IOT).
 India is facing a large problem of garbage handling, when you drive around the city of Mumbai you will find garbage dustbins overflowing. Many places follow a fixed timing for garbage collection, some at mornings (like where I live) some at evening and few places have garbage collection both times.
 Lets take example of a park , on a crowded day dustbins in park will get full but as the timing to pick up trash is fixed they won't be cleared. This eventually leads to garbage overflow.
@@ -17,6 +15,7 @@ We choose to go with GSM module but this can be replaced with a wifi module and 
 Reason to use GSM to make the system free from constrain that the area of deployment should be having a wifi hotspot available to connect.<br>
 Ultrasonic sensor was used to detect the distance between garbage in dustbin and top of the dustbin.
 Arduino UNO was used as micro-controller board.<br>
+
 <b>How will system work ?</b><br>
 Demo setup of projectSensor valuesWhen we throw garbage in dustbin the sensor will calculate the distance and determine if there is space left in dustbin or not.Once Arduino detects that distance between sensor and garbage is less, it sends a message via GSM board notifying that dusting is about to get full.<br>
 Dustbin full demonstrationSensor value ≤5Message send by demo systemOne issue with sending message when sensor value detection is it keeps sending message on every instance of detection. This will cause continuous messages to be kept sending.
