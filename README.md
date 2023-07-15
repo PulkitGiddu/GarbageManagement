@@ -29,8 +29,6 @@ Solution i came up with is<br>
 2) by using 2 sensors one at each side this will ensure that dustbin is actually full and not a false alarm.<br>
 By using 1 solution we also defeat problem of sensor failure to some extend.<br>
 
-Code for this project:<br>
-
 Reference :<br>
 Security System Using Ultrasonic Sensor and Gsm Module https://www.instructables.com/id/Security-System-Using-Ultrasonic-Sensor-and-Gsm-Mo/?source
 
